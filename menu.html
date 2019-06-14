@@ -10,9 +10,10 @@
 </head>
 <body>
     <div class="container">
-        <Div class="jumbotron">
+        <div id="jumbotron" class="jumbotron">
+            
             <h1>MENU</h1>
-            <ul class="nav bar">
+            <ul id ="nav" class="nav bar">
                 <li><a href="index.html"><strong>HOME</strong></a></li>
                 <li><a href="menu.html"><strong>MENU</strong></a></li>
                 <li><a href="contacts.html"><strong>CONTACTS</strong></a></li>
@@ -24,6 +25,7 @@
     </div>
     <div class="row">
         <div class="col-md-3">
+            <img src="images/sizes.jpg" alt="" height="70%" width="100%">
             <label for="">sizes</label>
             <select name="sizes" id="">
                 <option value="">Large</option>
@@ -33,18 +35,9 @@
             </select>
 
         </div>
-        <div class="col-md-3">
-                <label for="">Toppings</label>
-                <select name="Toppings" id="">
-                   <option value="">Pepperoni</option> 
-                   <option value="">Mushrooms</option>
-                   <option value="">Onions</option>
-                   <option value="">Sausage</option>
-                   <option value="">Olives</option>
-                </select>
-    
-            </div>
-            <div class="col-md-3">
+        <div class="col-md-3 crust">
+            <img src="images/crust.jpg" alt="" height="70%" width="100%">
+               
                 <label for="">Crust</label>
                 <select name="" id="">
                     <option value="">Thin</option>
@@ -52,6 +45,20 @@
                     <option value="">Deep</option>
                     <option value="">Cheese Filled</option>
                 </select>
+    
+            </div>
+            <div class="col-md-3">
+                <img src="images/toppings.jpg" alt="" height="70%" width="100%">
+                
+                    <label for="">Toppings</label>
+                    <select name="Toppings" id="">
+                       <option value="">Pepperoni</option> 
+                       <option value="">Mushrooms</option>
+                       <option value="">Onions</option>
+                       <option value="">Sausage</option>
+                       <option value="">Olives</option>
+                    </select>
+                
 
             </div>
             <div class="col-md-3">
@@ -66,7 +73,7 @@
                 <div class="col-md-6">
                     <label for="">Cost</label>
                     <input type="text">
-                    <button class="btn-success btn-xs">Total</button>
+                    <button class="btn-success btn-#bad3e">Total</button>
 
                 </div>
         
