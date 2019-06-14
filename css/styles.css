@@ -1,0 +1,23 @@
+body{
+    background-image: url(../images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+   
+    background-repeat: no-repeat;
+   
+    text-align: center;
+    color:white;
+}
+ul a{
+    color:white;
+    float: right;
+}
+#jumbotron{
+    background-color: transparent;
+}
+#nav{
+    float:right;
+    
+}
