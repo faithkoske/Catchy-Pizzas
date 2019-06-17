@@ -6,12 +6,18 @@ A fictional website application for a pizza place.It enables you to order pizzas
 Faith Koske is a programming student in Moringa School.
 # Setup instructions
 One requires access to the internet and a device(computer,smart phone)
+# BDD
+| Behaviour our program should handle | Example |Expected outcome
+| ------------- | ------------- |-----------|
+| Email length | less than 10 characters |Program will tell you the email is invalid |
+| Length of the name | less that 2 character| Program will tell you the name is invalid|
+| Length of the location|less than 2 characters| Program will alert you to add a valid location|
+| All values are added as required|Email > 10,Name > 2,Location > 2| Program will confirm the location has been noted|
 # Technologies
 HTML
 CSS
 Bootstrap
 JavaScript
-jQuery
 # Contacts
 Chemutaifaith10@gmail.com
 # Lisence
