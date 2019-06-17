@@ -7,6 +7,7 @@
     <title>Menu</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mali&display=swap">
 </head>
 <body>
     <div class="container">
@@ -14,7 +15,7 @@
             
             <h1>MENU</h1>
             <ul id ="nav" class="nav bar">
-                <li><a href="index.html"><strong>HOME</strong></a></li>
+                <li><a href="index.html"></strong>HOME</strong></a></li>
                 <li><a href="menu.html"><strong>MENU</strong></a></li>
                 <li><a href="contacts.html"><strong>CONTACTS</strong></a></li>
              </ul>
@@ -24,7 +25,7 @@
         <p>Enjoy with friends and family!</p>
     </div>
     <div class="row">
-        <div class="col-md-2">
+        <div class="col-md-4">
             <img src="images/sizes.jpg" alt="" height="70%" width="100%">
 
             <label for="">Sizes</label>
@@ -36,19 +37,18 @@
             </select>
 
         </div>
-        <div class="col-md-2 crust">
+        <div class="col-md-4 crust">
             <img src="images/crust.jpg" alt="" height="70%" width="100%">
                
                 <label for="">Crust</label>
                 <select name="" id="">
                     <option value="">Thin</option>
                     <option value="">Stuffed</option>
-                    <option value="">Deep</option>
                     <option value="">Cheese Filled</option>
                 </select>
     
             </div>
-            <div class="col-md-2">
+            <div class="col-md-4">
                 <img src="images/toppings.jpg" alt="" height="70%" width="100%">
                 
                     <label for="">Toppings</label>
@@ -62,36 +62,64 @@
                 
 
             </div>
-            <div class="col-md-2">
-                <label for="">How many?</label>
-                <input type="text" value="">
-
+           
             </div>
-            <div class="col-md-2">
-                <div class="col-md-6">
-                    <label for="">Delivery?</label>
-                    <select name="" id="">
-                        <option value="">Yes,I want delivery.</option>
-                        <option value="">No thanks.</option>
-                    </select>
-
-                </div>
-                <div class="col-md-6">
-                    <label for="">Cost</label>
-                    <input type="text">
-                    <button class="btn-success btn-#bad3e">Purchase</button>
-                    <button class="btn-success btn-#bad3e">Discard</button>
-
-
-                </div>
         
-            </div>
+        <div class="row">
+                <div class="col-md-4">
+                        <label for="">How many?</label>
+                        <input type="text" value="">
+        
+                    </div>
+                    <div class="col-md-4">
+                       
+                            <label for="">Delivery?</label>
+                            <select name="" id="">
+                                <option value="">Yes</option>
+                                <option value="">No</option>
+                            </select>
+        
+                        </div>
+                        <div class="col-md-4">
+                            <label for="">Cost</label>
+                            <input type="text">
+                            <button class="">Purchase</button>
+                            <button class="">Discard</button>
+        
+        
+                        </div>
+                
+
         </div>
+        
+            <p>If you want delivery,Enter your info below and catchy pizzas will be at your doorstep in a few!</p>
+            <div class="row"> 
+                <div class="n1"> 
+                    <label for="name">Name</label> 
+                    <input type="text" name="name" id="name"> 
+                </div>
+                <div class="n2">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email">
+                </div>
+                <div class="n3">
+                    <label for="location">Location</label>
+                    <input type="text" name="location" id="location">
+                </div>
+                <button id="btn" button type="submit" onclick="loc();">Submit</button>
+
+        </div>
+        
         
        
 
     </div>
     
+    
 </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+crossorigin="anonymous"></script>
+<script src="js/scripts.js"></script>
 </body>
 </html>
