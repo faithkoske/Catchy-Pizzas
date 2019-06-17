@@ -18,6 +18,8 @@ HTML
 CSS
 Bootstrap
 JavaScript
+# Link to live site
+https://faithkoske.github.io/Catchy-Pizzas/
 # Contacts
 Chemutaifaith10@gmail.com
 # Lisence
